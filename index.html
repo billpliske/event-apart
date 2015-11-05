@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<style>
+
+.aea-wrapper {
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.aea-number {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    float:left;
+    position: relative;
+    top: -11px;
+}
+
+.aea-hed {
+    position: relative;
+    margin: 60px 0 10px 66px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing:-1px;
+}
+
+.aea-caption {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin:3px 0 30px 0;
+}
+
+.circle-image {
+    width: 160px; 
+    height: auto;
+    float: right;
+    margin:0 0 1rem 2rem; 
+    border-radius: 50%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+.listitem {
+    margin-bottom:10px;
+}
+
+
+
+
+
+</style>
+
+<body>
+<div class="aea-wrapper" style="width:514px;">
+<p>Billed as a conference for designers and developers, An Event Apart was recently in San Francisco, featuring educational and inspiring talks from various leaders in their respective fields.</p>
+<p><strong>Here are my</strong> (drum roll, please) <strong>Top 10 Takeways:</strong></p>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">1</div>
+    <h1 class="aea-hed">First impressions are forever</h1>
+    <img src="event-apart.jpg" class="aea-image">
+    <p class="aea-caption">You can't tell from this photo, but there were hundreds and hundreds of attendees.</p>
+    <img src="zeldman.png" class="circle-image">
+    <p><strong>Jeffrey Zeldman</strong>, father of web standards and co-founder of this event, reminds us that we’re all in the business of impressions. He readily admits how often he’s been fired from various jobs — often. He was that guy who cared ... REALLY cared about the end product. Unfortunately, what came with that mindset, was often disdain for folks with a different approach to the work. He was viewed as confrontational. A complainer. Not a “team player.” And he was instantly branded. Zeldman found this out, and instantly began to turn around his image. Months later ... he was fired anyway. When he asked about it, his boss told him that “quite frankly, you’re still that same guy — just faking it right now. I want someone who truly wants to be here.”</p> 
+
+<p>Customers can often be the same way about first impressions. So be careful about how you release that MVP to your audience. Many users don't come back later, after catching that first whiff of a potentially-half-baked product.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">2</div>
+    <h1 class="aea-hed">"I feel the need, the need for speed!"</h1>
+    <iframe src="http://www.webpagetest.org/video/view.php?id=151105_3716de735c0758ae81f98083cc4744663a57a9e8&embed=1&width=514&height=227" width="514" height="227"></iframe>
+    <p class="aea-caption">Of all the useful things <a href="http://www.webpagetest.org/">webpagetest.org</a> does, one of the coolest might be how it  creates video comparisons of loading times. It's a great way to compare two sites, or even two versions (A/B test) of a site in progress. (you might need to hit play twice in the middle of this example)</p>
+    <img src="cruz.png" class="circle-image">
+    <p>According to <strong>Yesenia Perez-Cruz</strong>, there's simply not enough communication along the way to honestly assess performance issues. Fast sites are memorable. Fast sites also build trust. Cruz points out that <strong>performance</strong> should be a project goal, right from the start — having a place at the table with development, design and project management.</p>
+    <p>Taking it a step further, each project should have some sort of<strong> <a href="http://danielmall.com/articles/how-to-make-a-performance-budget/" target="_new">performance budget</a></strong>. These often include things like "Page A shouldn't take more than XX seconds to load over a XX connection." Find similar sites to your project, possibly even competitors. Look at their results on webpagetest.org, and go for a 20% speed increase (the number where users perceive a noticable difference). </p>
+    <img src="budget.jpg" class="aea-image">
+    <p>Once you have documented numbers in place, you'll find it's much easier to argue for (or against) that new feature ... especially if you can't find a way to keep it within your budget.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">3</div>
+    <h1 class="aea-hed">Take advantage of existing tools</h1>
+    <p>There are many different tools out that to help us make better sites and apps. You might already know about all of these, but just in case, here are a few mentioned during the two-day conference.</p>
+    <ul>
+    <li class="listitem"><a href="http://www.webpagetest.org/" target="_new"><strong>webpagetest.org</strong></a>: You can run simple tests or perform advanced testing including multi-step transactions, video capture, content blocking and much more.</li>
+    <li class="listitem"><a href="https://www.npmjs.com/package/grunt-perfbudget" target="_new"><strong>Grunt tasks</strong></a>: Performance budgeting thanks to the magic of WebPageTest.</li>
+    <li class="listitem"><a href="http://designingforperformance.com/" target="_new"><strong>Designing for Performance</strong></a>: The book to help integrate performance into your workflow, complete with suggested budgets. All book proceeds go to encouraging girls and women to get into coding.</li>
+    <li class="listitem"><a href="http://httparchive.org/interesting.php" target="_new"><strong>Interesting Stats</strong></a>: Pages using custom fonts, most-popular image formats, avg DOM depth ... you'll find that and more, plus custom queries!</li>
+    <li class="listitem"><a href="https://imageoptim.com/" target="_new"><strong>ImageOptim</strong></a>: A free app (Mac only) that makes images take up less disk space and load faster, without sacrificing quality. It optimizes compression parameters, removes junk metadata and unnecessary color profiles. Even better, you can <a href="http://www.github.com/JamieMason/ImageOptim-CLI" target="_new">automate</a> it!</li>
+    </ul>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">4</div>
+    <h1 class="aea-hed">Pay attention to what your customers are doing</h1>
+    <img src="apps.jpg" class="aea-image">
+    <p class="aea-caption">We're a bit of an odd duck when it comes to apps. Especially when compared to our friends across the pond.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">5</div>
+    <h1 class="aea-hed">If possible, synchronize between devices</h1>
+    <img src="http://placehold.it/514x340" class="aea-image">
+    <p class="aea-caption">This is what is happening in the photo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">6</div>
+    <h1 class="aea-hed">Slim down that site</h1>
+    <img src="amazon.jpg" class="aea-image">
+    <p class="aea-caption">This is what is happening in the photo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">7</div>
+    <h1 class="aea-hed">Remember design? (it's making a comeback)</h1>
+    <img src="http://placehold.it/514x340" class="aea-image">
+    <p class="aea-caption">This is what is happening in the photo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">8</div>
+    <h1 class="aea-hed">Go with what works for everyone</h1>
+    <img src="http://placehold.it/514x340" class="aea-image">
+    <p class="aea-caption">This is what is happening in the photo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">9</div>
+    <h1 class="aea-hed">Beacons: They don't have to be annoying</h1>
+    <img src="http://placehold.it/514x340" class="aea-image">
+    <p class="aea-caption">This is what is happening in the photo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="aea-post-wrapper">
+    <div class="aea-number">10</div>
+    <h1 class="aea-hed">We have seen the future, and they involve CSS Grids</h1>
+    <img src="http://placehold.it/514x340" class="aea-image">
+    <p class="aea-caption">This is what is happening in the photo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+
+
+
+</div>
+</body>
+</html>
